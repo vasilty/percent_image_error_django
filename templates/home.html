@@ -1,0 +1,33 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+<table>
+    <tr>
+        <td>Image name</td>
+        <td>Img src</td>
+        <td>Image</td>
+    </tr>
+    <tr>
+        <td>treehouse-logo.png</td>
+        <td>static/images/treehouse-logo.png</td>
+        <td><img src="static/images/treehouse-logo.png"></td>
+    </tr>
+    <tr>
+        <td>treehouse%2Clogo.png</td>
+        <td>static/images/treehouse%2Clogo.png</td>
+        <td><img src="static/images/treehouse%2Clogo.png"></td>
+    </tr>
+    <tr>
+        <td>treehouse%2Clogo.png</td>
+        <td>static/images/treehouse%252Clogo.png</td>
+        <td><img src="static/images/treehouse%252Clogo.png"></td>
+    </tr>
+    <tr>
+        <td>P.S. Image treehouse,logo.png works just fine.</td>
+    </tr>
+</table>
+</body>
